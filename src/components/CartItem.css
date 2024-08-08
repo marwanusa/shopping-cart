@@ -1,0 +1,19 @@
+.CartItem{
+    display: flex;
+    gap: 30px;
+}
+.CartItem .info{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+    align-items: center;
+}
+.CartItem .info .price{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.CartItem .info .name h3{
+ display: flex;
+}
